@@ -1,0 +1,22 @@
+# ===== 本地私密配置（含真实密钥，绝对不要提交） =====
+config.local.js
+
+# ===== 依赖与构建产物（本项目零依赖，留着防止以后误提交） =====
+node_modules/
+dist/
+build/
+
+# ===== 编辑器 / 系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+npm-debug.log*
+
+# ===== 个人求职材料（不属于开源项目） =====
+简历-项目描述.md
